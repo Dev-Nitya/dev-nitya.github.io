@@ -47,12 +47,15 @@ export default function Home() {
   ];
 
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main
+      className="min-h-screen bg-black text-white"
+      style={{ backgroundColor: "#000000", color: "#ffffff" }}
+    >
       {/* Hero Section */}
       <header className="border-b border-gray-800">
         <div className="max-w-6xl mx-auto px-6 py-16">
           <div className="text-center space-y-6">
-            <h1 className="text-5xl md:text-6xl font-bold tracking-tight">
+            <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-white">
               Nitya Malhotra
             </h1>
             <div className="h-1 w-24 bg-white mx-auto"></div>
